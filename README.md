@@ -8,6 +8,8 @@
  - Appium 8.0.0
  - Allure 2.17.3
 
+Тест-кейсы содержваться в файле:
+
 Для тестов используется эмулятор мобильного девайса - Pixel 2 XL API 30, Android 11, Screen resolution 1920 × 1080 (441 ppi):
 
 ![img.png](src/test/resources/images/avd.png)
