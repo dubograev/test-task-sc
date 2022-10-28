@@ -9,9 +9,11 @@
  - Allure 2.17.3
 
 Для тестов используется эмулятор мобильного девайса - Pixel 2 XL API 30, Android 11, Screen resolution 1920 × 1080 (441 ppi):
+
 ![img.png](src/test/resources/images/avd.png)
 
-После прохождения тестов для получения отчёта необходимо выполнить команду allureServe
+После прохождения тестов для получения отчёта необходимо выполнить команду allureServe:
+
 ![img.png](src/test/resources/images/allure1.png)
 
 ![img.png](src/test/resources/images/allure2.png)
