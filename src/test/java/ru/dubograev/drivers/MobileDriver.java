@@ -41,7 +41,7 @@ public class MobileDriver implements WebDriverProvider{
     }
 
     private File getApp() {
-        String appUrl = "";
+        String appUrl = "https://github.com/dubograev/test-task-sc/blob/master/build/resources/test/app/sportm.apk";
         String appPath = "src/test/resources/app/sportm.apk";
 
         File app = new File(appPath);
