@@ -12,7 +12,8 @@ def allureVersion = "2.17.3",
     appiumVersion = "8.0.0",
     commonsIoVersion = "2.11.0",
     junitVersion = "5.8.2",
-    slf4jVersion = "1.7.32"
+    slf4jVersion = "1.7.32",
+    assertjVersion = "3.22.0"
 
 allure {
     report {
@@ -35,7 +36,8 @@ dependencies {
             "io.appium:java-client:$appiumVersion",
             "commons-io:commons-io:$commonsIoVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
-            "org.slf4j:slf4j-simple:$slf4jVersion"
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            "org.assertj:assertj-core:$assertjVersion"
     )
 }
 
@@ -55,8 +57,8 @@ tasks.withType(Test) {
     }
 }
 
-task android(type: Test) {
-    useJUnitPlatform {
-        includeTags 'android'
-    }
-}
+//task android(type: Test) {
+//    useJUnitPlatform {
+//        includeTags 'android'
+//    }
+//}
